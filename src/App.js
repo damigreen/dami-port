@@ -11,29 +11,29 @@ function App() {
           <span>Accounts</span>
         </div>
         <div className="flex w-[85%] items-start space-x-4 border-4 ">
-          <div className="shrink grow basis-[60%] border p-4">
-            <span className="p-0">
+          <div className="shrink grow basis-[55%]  p-4">
+            <span className="!p-0 text-[#cccccc]" style={{ padding: "0" }}>
               <h1 className="text-ellipsis text-7xl">Welcome.</h1>
             </span>
-            <span className="">
-              <p className="block">
+            <div className="mt-7 text-[#d1d1d1]">
+              <p className="block text-[0.9em] leading-6">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </p>
-            </span>
+            </div>
           </div>
-          <div className="shrink grow basis-[40%]">
-            <span>
-              <h4>Projects</h4>
+          <div className="mt-6 shrink grow basis-[40%]">
+            <h4 className="text-3xl text-[#d1d1d1]">Projects</h4>
+            <div className="mt-6 border-l-2 border-t-2 pl-5 pt-5 text-[#b5b5b5] w-9">
               <ul>
                 <li>hello</li>
                 <li>hello</li>
                 <li>hello</li>
                 <li>hello</li>
               </ul>
-            </span>
+            </div>
           </div>
         </div>
         <div className="flex w-[95%] flex-row justify-between">
